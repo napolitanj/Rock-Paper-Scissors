@@ -5,6 +5,13 @@ Goal:
 Create a simple rock vs. paper vs. scissors game to build understanding of javascript basics.
 
 ----------
+Version 2
+----------
+
+The game has been updated to play until either the computer or player wins after either wins 5 rounds of rock, paper, scissors. In the unlikely event that there are 100 draws, the game ends, prompting the player that the program did so to prevent a possible crash from too many computations.
+
+
+----------
 Version 1
 ----------
 
