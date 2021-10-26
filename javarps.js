@@ -60,7 +60,7 @@ function game() {
 
         //Prompt for player input.
         function playerWeapon() {
-        let weapon = "sciSSors";
+        let weapon = prompt("You are under attack! Pick your weapon: rock, paper, or scissors?");
         let playerInput = weapon.toLowerCase();
 
         return playerInput;

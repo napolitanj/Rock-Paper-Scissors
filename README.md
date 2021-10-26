@@ -5,6 +5,12 @@ Goal:
 Create a simple rock vs. paper vs. scissors game to build understanding of javascript basics.
 
 ----------
+Version 3
+----------
+
+The game now prompts the user for input.
+
+----------
 Version 2
 ----------
 
