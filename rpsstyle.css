@@ -1,0 +1,33 @@
+body {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin:50px;
+    text-align:center;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px;
+    text-align:center;
+    display:flex;
+    margin:50px;
+    
+}
+
+.weapons {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+.score {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap: 50px;
