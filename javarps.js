@@ -21,41 +21,41 @@ let draws=0;
     function playRound(playerChoice,computerChoice) {
         if (computerChoice === "rock" && playerChoice === "paper") {
             playerScore += 1;
-            document.getElementById("results").innerHTML = "Computer selected rock, you win!" + playAgain; 
+            document.getElementById("results").innerText = "Computer selected rock, you win!" + playAgain; 
         }
         else if (computerChoice === "paper" && playerChoice === "scissors") {
             playerScore += 1;
-            document.getElementById("results").innerHTML = "Computer selected paper, you win!" + playAgain;
+            document.getElementById("results").innerText = "Computer selected paper, you win!" + playAgain;
         }
         else if (computerChoice === "scissors" && playerChoice === "rock") {
             playerScore += 1;
-            document.getElementById("results").innerHTML = "Computer selected scissors, you win!" + playAgain;
+            document.getElementById("results").innerText = "Computer selected scissors, you win!" + playAgain;
         }
         else if (computerChoice === "rock" && playerChoice === "scissors"){
-            document.getElementById("results").innerHTML = "Computer selected rock, you lose!" + playAgain;
+            document.getElementById("results").innerText = "Computer selected rock, you lose!" + playAgain;
             computerScore += 1; 
         }
         else if (computerChoice === "scissors" && playerChoice === "paper"){
-            document.getElementById("results").innerHTML = "Computer selected scissors, you lose!" + playAgain;
+            document.getElementById("results").innerText = "Computer selected scissors, you lose!" + playAgain;
             computerScore += 1; 
         }
         else if (computerChoice === "paper" && playerChoice === "rock"){
-            document.getElementById("results").innerHTML = "Computer selected paper, you lose!" + playAgain;
+            document.getElementById("results").innerText = "Computer selected paper, you lose!" + playAgain;
             computerScore += 1;
         }
         else {
-            document.getElementById("results").innerHTML = "You both picked " + computerChoice + ". It's a tie!" + playAgain;
+            document.getElementById("results").innerText = "You both picked " + computerChoice + ". It's a tie!" + playAgain;
             draws += 1;
         }
 
-    document.getElementById("p1").innerHTML = playerScore;
-    document.getElementById("p2").innerHTML = computerScore;
-    document.getElementById("p3").innerHTML = draws;
+    document.getElementById("p1").innerText = playerScore;
+    document.getElementById("p2").innerText = computerScore;
+    document.getElementById("p3").innerText = draws;
     if (computerScore >= 5) {
-        document.getElementById("results").innerHTML = "Game over, the computer wins! Refresh the browser to start over.";
+        document.getElementById("results").innerText = "Game over, the computer wins! Refresh the browser to start over.";
     }
     else if (playerScore >= 5) {
-        document.getElementById("results").innerHTML = "Game over, the you win! Refresh the browser to start over.";
+        document.getElementById("results").innerText = "Game over, the you win! Refresh the browser to start over.";
     }
 }
 
