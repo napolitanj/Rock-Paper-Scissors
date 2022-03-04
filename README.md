@@ -1,3 +1,5 @@
+LIVE DEMO: https://napolitanj.github.io/Rock-Paper-Scissors/
+
 The Odin Project Project: Rock Paper Scissors
 
 Goal:
